@@ -57,7 +57,7 @@ export default function EventHighlights() {
             <div className="bg-white rounded-lg border border-red-200 hover:border-red-800/50 transition-all duration-300 shadow-sm hover:shadow-lg overflow-hidden">
               <div className="bg-gradient-to-br from-red-800 to-red-900 p-6 text-white">
                 <div className="text-4xl mb-3">⚽</div>
-                <h3 className="text-2xl font-bold mb-2">WM-Finale</h3>
+                <h3 className="text-2xl font-bold mb-2">WM-Finale Public Viewing</h3>
                 <p className="text-red-100 font-semibold">19. Juli 2026</p>
               </div>
               <div className="p-6">
