@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
@@ -31,9 +33,12 @@ export default function Home() {
             >
               Jetzt bewerben
             </a>
-            <button className="px-8 py-4 bg-transparent border-2 border-red-800 text-red-800 hover:bg-red-800 hover:text-white font-semibold rounded-lg transition-all duration-300">
+            <Link 
+              href="/ueber-uns"
+              className="px-8 py-4 bg-transparent border-2 border-red-800 text-red-800 hover:bg-red-800 hover:text-white font-semibold rounded-lg transition-all duration-300 inline-block"
+            >
               Mehr erfahren
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -136,9 +141,9 @@ export default function Home() {
             © 2026 Summerträff Vaduz. Alle Rechte vorbehalten.
           </p>
           <div className="flex justify-center gap-6 text-sm">
-            <a href="#" className="text-gray-600 hover:text-red-800 transition-colors">Impressum</a>
-            <a href="#" className="text-gray-600 hover:text-red-800 transition-colors">Datenschutz</a>
-            <a href="#" className="text-gray-600 hover:text-red-800 transition-colors">Kontakt</a>
+            <Link href="#" className="text-gray-600 hover:text-red-800 transition-colors">Impressum</Link>
+            <Link href="#" className="text-gray-600 hover:text-red-800 transition-colors">Datenschutz</Link>
+            <Link href="#" className="text-gray-600 hover:text-red-800 transition-colors">Kontakt</Link>
           </div>
         </div>
       </footer>
