@@ -1,6 +1,10 @@
-# Marketing Page
+# Summerträff Vaduz
 
-Eine einfache "Hallo Welt" Webseite erstellt mit Next.js und Tailwind CSS.
+Eine moderne Webseite für den Summerträff Vaduz, erstellt mit Next.js und Tailwind CSS.
+
+## Design
+
+Die Webseite verwendet warme Farben mit Fokus auf Dunkelrot und Schwarz, um eine elegante und einladende Atmosphäre zu schaffen.
 
 ## Entwicklung
 

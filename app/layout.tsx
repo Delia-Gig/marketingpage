@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Hallo Welt',
-  description: 'Eine einfache Hallo Welt Webseite',
+  title: 'Summerträff Vaduz',
+  description: 'Willkommen zum Summerträff Vaduz - Ein unvergessliches Sommererlebnis',
 }
 
 export default function RootLayout({
