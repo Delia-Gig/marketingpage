@@ -141,9 +141,9 @@ export default function Home() {
             © 2026 Summerträff Vaduz. Alle Rechte vorbehalten.
           </p>
           <div className="flex justify-center gap-6 text-sm">
-            <Link href="#" className="text-gray-600 hover:text-red-800 transition-colors">Impressum</Link>
-            <Link href="#" className="text-gray-600 hover:text-red-800 transition-colors">Datenschutz</Link>
-            <Link href="#" className="text-gray-600 hover:text-red-800 transition-colors">Kontakt</Link>
+            <Link href="/impressum" className="text-gray-600 hover:text-red-800 transition-colors">Impressum</Link>
+            <Link href="/datenschutz" className="text-gray-600 hover:text-red-800 transition-colors">Datenschutz</Link>
+            <Link href="/kontakt" className="text-gray-600 hover:text-red-800 transition-colors">Kontakt</Link>
           </div>
         </div>
       </footer>
