@@ -34,10 +34,10 @@ export default function Home() {
               Jetzt bewerben
             </a>
             <Link 
-              href="/ueber-uns"
+              href="/event-highlights"
               className="px-8 py-4 bg-transparent border-2 border-red-800 text-red-800 hover:bg-red-800 hover:text-white font-semibold rounded-lg transition-all duration-300 inline-block"
             >
-              Mehr erfahren
+              Unsere Highlights
             </Link>
           </div>
         </div>
