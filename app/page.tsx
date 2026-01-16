@@ -19,7 +19,7 @@ export default function Home() {
           </div>
           
           <p className="text-xl md:text-2xl lg:text-3xl text-gray-700 font-light mb-12 max-w-3xl mx-auto leading-relaxed">
-            Ein unvergessliches Sommererlebnis in der wunderschönen Hauptstadt Liechtensteins
+            Ein unvergessliches Sommererlebnis in der wunderschönen Hauptort Liechtensteins
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -86,7 +86,7 @@ export default function Home() {
             <div className="text-center p-8 bg-gradient-to-br from-gray-50 to-white rounded-lg border border-red-200 hover:border-red-800/50 transition-all duration-300 shadow-sm hover:shadow-md">
               <div className="text-5xl mb-4">📅</div>
               <h3 className="text-xl font-bold text-black mb-2">Datum</h3>
-              <p className="text-gray-600">Sommer 2024</p>
+              <p className="text-gray-600">Juni und Juli 2026</p>
             </div>
 
             <div className="text-center p-8 bg-gradient-to-br from-gray-50 to-white rounded-lg border border-red-200 hover:border-red-800/50 transition-all duration-300 shadow-sm hover:shadow-md">
@@ -123,7 +123,7 @@ export default function Home() {
       <footer className="py-12 px-4 bg-white border-t border-red-200">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-600 mb-4">
-            © 2024 Summerträff Vaduz. Alle Rechte vorbehalten.
+            © 2026 Summerträff Vaduz. Alle Rechte vorbehalten.
           </p>
           <div className="flex justify-center gap-6 text-sm">
             <a href="#" className="text-gray-600 hover:text-red-800 transition-colors">Impressum</a>
