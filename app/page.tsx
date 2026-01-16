@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
@@ -50,6 +52,19 @@ export default function Home() {
             <div className="w-24 h-1 bg-red-800 mx-auto"></div>
           </div>
 
+          {/* Event Image */}
+          <div className="mb-12 rounded-lg overflow-hidden shadow-xl">
+            <div className="relative w-full h-[400px] md:h-[500px]">
+              <Image
+                src="/summertraff-vaduz.jpg"
+                alt="Summerträff Vaduz - Festival auf dem Rathausplatz mit Bühne, Musik und vielen Besuchern"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          </div>
+
           <div className="space-y-8 max-w-4xl mx-auto">
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-black">Infrastruktur</h3>
@@ -84,21 +99,21 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-8 bg-gradient-to-br from-gray-50 to-white rounded-lg border border-red-200 hover:border-red-800/50 transition-all duration-300 shadow-sm hover:shadow-md">
-              <div className="text-5xl mb-4">📅</div>
+              <div className="text-5xl mb-4">📆</div>
               <h3 className="text-xl font-bold text-black mb-2">Datum</h3>
               <p className="text-gray-600">Juni und Juli 2026</p>
             </div>
 
             <div className="text-center p-8 bg-gradient-to-br from-gray-50 to-white rounded-lg border border-red-200 hover:border-red-800/50 transition-all duration-300 shadow-sm hover:shadow-md">
-              <div className="text-5xl mb-4">📍</div>
+              <div className="text-5xl mb-4">🎯</div>
               <h3 className="text-xl font-bold text-black mb-2">Ort</h3>
-              <p className="text-gray-600">Vaduz, Liechtenstein</p>
+              <p className="text-gray-600">Rathausplatz Vaduz</p>
             </div>
 
             <div className="text-center p-8 bg-gradient-to-br from-gray-50 to-white rounded-lg border border-red-200 hover:border-red-800/50 transition-all duration-300 shadow-sm hover:shadow-md">
-              <div className="text-5xl mb-4">🎵</div>
+              <div className="text-5xl mb-4">🎪</div>
               <h3 className="text-xl font-bold text-black mb-2">Programm</h3>
-              <p className="text-gray-600">Vielseitiges Angebot für Alle</p>
+              <p className="text-gray-600">Details folgen nach Ablauf der Bewerbungsfrist</p>
             </div>
           </div>
         </div>
@@ -111,7 +126,7 @@ export default function Home() {
             Sei dabei beim <span className="text-red-800">Summerträff Vaduz</span>
           </h2>
           <p className="text-xl text-gray-700 mb-10 max-w-2xl mx-auto">
-            Verpasse nicht diese einzigartige Gelegenheit, den Summerträff 2026 mitzugestalten. 
+            Verpassen Sie nicht die Gelegenheit, den Summerträff 2026 mitzugestalten. 
           </p>
           <button className="px-10 py-5 bg-red-800 hover:bg-red-900 text-white text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-red-900/50">
             Jetzt bewerben
