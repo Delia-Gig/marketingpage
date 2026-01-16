@@ -15,22 +15,22 @@ export default function Footer() {
                 <span className="mr-3 text-red-800 text-lg">📍</span>
                 <div>
                   <p className="font-medium text-gray-900">Adresse</p>
-                  <p>Adresse folgt</p>
+                  <p>Verein Standortmarketing Vaduz<br />Städtle 14<br />Postfach 317<br />9490 Vaduz</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <span className="mr-3 text-red-800 text-lg">📞</span>
                 <div>
                   <p className="font-medium text-gray-900">Telefon</p>
-                  <a href="tel:" className="hover:text-red-800 transition-colors">Telefon folgt</a>
+                  <a href="tel:+4237914080" className="hover:text-red-800 transition-colors">+423 791 40 80</a>
                 </div>
               </div>
               <div className="flex items-start">
                 <span className="mr-3 text-red-800 text-lg">✉️</span>
                 <div>
                   <p className="font-medium text-gray-900">E-Mail</p>
-                  <a href="mailto:kontakt@summertraeff-vaduz.li" className="hover:text-red-800 transition-colors">
-                    E-Mail folgt
+                  <a href="mailto:info@erlebevaduz.li" className="hover:text-red-800 transition-colors">
+                    info@erlebevaduz.li
                   </a>
                 </div>
               </div>
