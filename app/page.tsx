@@ -50,38 +50,23 @@ export default function Home() {
             <div className="w-24 h-1 bg-red-800 mx-auto"></div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
+          <div className="space-y-8 max-w-4xl mx-auto">
+            <div className="space-y-4">
+              <h3 className="text-2xl font-bold text-black">Infrastruktur</h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Der Summerträff Vaduz ist ein einzigartiges Sommerfestival, das die Schönheit 
-                Liechtensteins mit einer unvergesslichen Atmosphäre verbindet. Erlebe unvergessliche 
-                Momente inmitten der malerischen Alpenlandschaft.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Genieße Live-Musik, kulinarische Köstlichkeiten und die warme Gemeinschaft, die 
-                diesen besonderen Anlass auszeichnet. Ein Event, das du nicht verpassen solltest!
+                Eine grosse Sandfläche, eine Bücherecke, Sitzgelegenheiten und ein Naschgarten laden zum Verweilen ein. 
+                Für Bewegung sorgen Ping Pong, Tischfussball, ein Hüpfkissen und Spielsachen. Abkühlung bietet die 
+                Sprühnebel-Oase. Ein Piano sowie das Mühlefeld laden zu Spiel und Klang ein.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-red-50 to-red-100/50 p-8 rounded-lg border border-red-200">
-              <h3 className="text-2xl font-bold text-black mb-6">Highlights</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start">
-                  <span className="text-red-800 mr-3 text-xl">✓</span>
-                  <span className="text-gray-700">Live-Musik und Unterhaltung</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-red-800 mr-3 text-xl">✓</span>
-                  <span className="text-gray-700">Kulinarische Spezialitäten</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-red-800 mr-3 text-xl">✓</span>
-                  <span className="text-gray-700">Atemberaubende Alpenkulisse</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-red-800 mr-3 text-xl">✓</span>
-                  <span className="text-gray-700">Gemeinschaft und Geselligkeit</span>
-                </li>
-              </ul>
+            
+            <div className="space-y-4">
+              <h3 className="text-2xl font-bold text-black">Events auf dem Rathausplatz</h3>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Der Summerträff 2026 bringt Musik, Sport, Kultur und Gemeinschaft. Regionale Vereine und Institutionen 
+                sind eingeladen, mit Konzerten, Sportstunden und anderen öffentlich zugänglichen Angeboten den Summerträff 
+                zu bereichern. Auch Kinder dürfen sich auf abwechslungsreiche Mitmach-Angebote wie das Kinderfest freuen.
+              </p>
             </div>
           </div>
         </div>
