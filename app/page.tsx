@@ -1,11 +1,30 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-yellow-50 via-pink-50 to-blue-50 flex items-center justify-center p-8">
+    <main 
+      className="min-h-screen flex items-center justify-center p-8"
+      style={{ 
+        lineHeight: '71px', 
+        letterSpacing: '14px',
+        background: 'none'
+      }}
+    >
       <div className="text-center space-y-6">
         <h1 className="text-6xl md:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400">
           Hallo Züri
         </h1>
-        <p className="text-xl md:text-2xl text-gray-600 font-light">
+        <p 
+          className="text-xl md:text-2xl font-light"
+          style={{
+            height: '50px',
+            fontFamily: '"SF Compact Display", sans-serif',
+            color: 'var(--tw-gradient-stops)',
+            lineHeight: '70px',
+            letterSpacing: '0.5px',
+            verticalAlign: 'top',
+            boxSizing: 'content-box',
+            backgroundColor: 'rgba(244, 114, 182, 1)'
+          }}
+        >
           Willkommen auf meiner Webseite!
         </p>
         <div className="flex justify-center gap-4 mt-8">
