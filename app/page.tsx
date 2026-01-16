@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
@@ -25,9 +23,14 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="px-8 py-4 bg-red-800 hover:bg-red-900 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-red-900/50">
+            <a 
+              href="https://summertraeff.lovable.app/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-8 py-4 bg-red-800 hover:bg-red-900 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-red-900/50"
+            >
               Jetzt bewerben
-            </button>
+            </a>
             <button className="px-8 py-4 bg-transparent border-2 border-red-800 text-red-800 hover:bg-red-800 hover:text-white font-semibold rounded-lg transition-all duration-300">
               Mehr erfahren
             </button>
@@ -50,19 +53,6 @@ export default function Home() {
               Über den <span className="text-red-800">Summerträff</span>
             </h2>
             <div className="w-24 h-1 bg-red-800 mx-auto"></div>
-          </div>
-
-          {/* Event Image */}
-          <div className="mb-12 rounded-lg overflow-hidden shadow-xl">
-            <div className="relative w-full h-[400px] md:h-[500px]">
-              <Image
-                src="/summertraff-vaduz.jpg"
-                alt="Summerträff Vaduz - Festival auf dem Rathausplatz mit Bühne, Musik und vielen Besuchern"
-                fill
-                className="object-cover"
-                priority
-              />
-            </div>
           </div>
 
           <div className="space-y-8 max-w-4xl mx-auto">
@@ -128,9 +118,14 @@ export default function Home() {
           <p className="text-xl text-gray-700 mb-10 max-w-2xl mx-auto">
             Verpassen Sie nicht die Gelegenheit, den Summerträff 2026 mitzugestalten. 
           </p>
-          <button className="px-10 py-5 bg-red-800 hover:bg-red-900 text-white text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-red-900/50">
+          <a 
+            href="https://summertraeff.lovable.app/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block px-10 py-5 bg-red-800 hover:bg-red-900 text-white text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-red-900/50"
+          >
             Jetzt bewerben
-          </button>
+          </a>
         </div>
       </section>
 
