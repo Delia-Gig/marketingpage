@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 export default function Galerie() {
   // Beispiel-Bilder - ersetze diese durch deine eigenen Bildpfade
   // Die Bilder sollten im public/galerie/ Verzeichnis liegen
-  const bilder = [
+  const bilder: { src: string; alt: string }[] = [
     // Beispiel: { src: '/galerie/bild1.jpg', alt: 'Beschreibung Bild 1' },
     // Füge hier deine Bilder hinzu
   ]
