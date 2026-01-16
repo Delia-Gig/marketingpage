@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Footer from '../components/Footer'
 
 export default function UeberUns() {
   return (
@@ -84,18 +85,9 @@ export default function UeberUns() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 px-4 bg-white border-t border-red-200 mt-20">
-        <div className="max-w-6xl mx-auto text-center">
-          <p className="text-gray-600 mb-4">
-            © 2026 Summerträff Vaduz. Alle Rechte vorbehalten.
-          </p>
-          <div className="flex justify-center gap-6 text-sm">
-            <Link href="/impressum" className="text-gray-600 hover:text-red-800 transition-colors">Impressum</Link>
-            <Link href="/datenschutz" className="text-gray-600 hover:text-red-800 transition-colors">Datenschutz</Link>
-            <Link href="/kontakt" className="text-gray-600 hover:text-red-800 transition-colors">Kontakt</Link>
-          </div>
-        </div>
-      </footer>
+      <div className="mt-20">
+        <Footer />
+      </div>
     </main>
   )
 }

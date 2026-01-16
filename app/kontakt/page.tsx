@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Footer from '../components/Footer'
 
 export default function Kontakt() {
   return (
@@ -45,6 +46,25 @@ export default function Kontakt() {
               <p className="text-lg text-gray-700">
                 Verein Standortmarketing Vaduz
               </p>
+            </div>
+
+            <div className="space-y-4 pt-4 border-t border-red-200">
+              <div className="space-y-2">
+                <h4 className="text-lg font-semibold text-black">Adresse</h4>
+                <p className="text-gray-700">Adresse folgt</p>
+              </div>
+              
+              <div className="space-y-2">
+                <h4 className="text-lg font-semibold text-black">Telefon</h4>
+                <p className="text-gray-700">Telefon folgt</p>
+              </div>
+              
+              <div className="space-y-2">
+                <h4 className="text-lg font-semibold text-black">E-Mail</h4>
+                <a href="mailto:kontakt@summertraeff-vaduz.li" className="text-gray-700 hover:text-red-800 transition-colors">
+                  E-Mail folgt
+                </a>
+              </div>
             </div>
 
             <div className="space-y-2 pt-4 border-t border-red-200">
@@ -104,18 +124,9 @@ export default function Kontakt() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 px-4 bg-white border-t border-red-200 mt-20">
-        <div className="max-w-6xl mx-auto text-center">
-          <p className="text-gray-600 mb-4">
-            © 2026 Summerträff Vaduz. Alle Rechte vorbehalten.
-          </p>
-          <div className="flex justify-center gap-6 text-sm">
-            <Link href="/impressum" className="text-gray-600 hover:text-red-800 transition-colors">Impressum</Link>
-            <Link href="/datenschutz" className="text-gray-600 hover:text-red-800 transition-colors">Datenschutz</Link>
-            <Link href="/kontakt" className="text-gray-600 hover:text-red-800 transition-colors">Kontakt</Link>
-          </div>
-        </div>
-      </footer>
+      <div className="mt-20">
+        <Footer />
+      </div>
     </main>
   )
 }
