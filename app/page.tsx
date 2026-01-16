@@ -19,12 +19,12 @@ export default function Home() {
           </div>
           
           <p className="text-xl md:text-2xl lg:text-3xl text-gray-700 font-light mb-12 max-w-3xl mx-auto leading-relaxed">
-            Ein unvergessliches Sommererlebnis in der wunderschönen Hauptort Liechtensteins
+            Ein unvergessliches Sommererlebnis im Hauptort Liechtensteins
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button className="px-8 py-4 bg-red-800 hover:bg-red-900 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-red-900/50">
-              Jetzt anmelden
+              Jetzt bewerben
             </button>
             <button className="px-8 py-4 bg-transparent border-2 border-red-800 text-red-800 hover:bg-red-800 hover:text-white font-semibold rounded-lg transition-all duration-300">
               Mehr erfahren
@@ -98,7 +98,7 @@ export default function Home() {
             <div className="text-center p-8 bg-gradient-to-br from-gray-50 to-white rounded-lg border border-red-200 hover:border-red-800/50 transition-all duration-300 shadow-sm hover:shadow-md">
               <div className="text-5xl mb-4">🎵</div>
               <h3 className="text-xl font-bold text-black mb-2">Programm</h3>
-              <p className="text-gray-600">Vielseitig & Spannend</p>
+              <p className="text-gray-600">Vielseitiges Angebot für Alle</p>
             </div>
           </div>
         </div>
@@ -111,10 +111,10 @@ export default function Home() {
             Sei dabei beim <span className="text-red-800">Summerträff Vaduz</span>
           </h2>
           <p className="text-xl text-gray-700 mb-10 max-w-2xl mx-auto">
-            Verpasse nicht diese einzigartige Gelegenheit, einen unvergesslichen Sommer in Vaduz zu erleben.
+            Verpasse nicht diese einzigartige Gelegenheit, den Summerträff 2026 mitzugestalten. 
           </p>
           <button className="px-10 py-5 bg-red-800 hover:bg-red-900 text-white text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-red-900/50">
-            Jetzt anmelden
+            Jetzt bewerben
           </button>
         </div>
       </section>
