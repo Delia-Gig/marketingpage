@@ -10,11 +10,11 @@ export default function Galerie() {
   ]
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-white via-red-50/30 to-white">
+    <main className="min-h-screen bg-gradient-to-br from-white via-red-50/60 to-red-100/40">
       {/* Hero Section */}
-      <section className="relative py-20 px-4 bg-gradient-to-b from-white to-red-50/20 overflow-hidden">
+      <section className="relative py-20 px-4 bg-gradient-to-b from-white via-red-50/50 to-red-100/30 overflow-hidden">
         {/* Background decorative elements */}
-        <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0 opacity-10">
           <div className="absolute top-10 left-10 w-64 h-64 bg-red-900 rounded-full blur-3xl"></div>
           <div className="absolute top-40 right-20 w-80 h-80 bg-red-800 rounded-full blur-3xl"></div>
           <div className="absolute bottom-20 left-1/3 w-72 h-72 bg-red-700 rounded-full blur-3xl"></div>
@@ -43,11 +43,12 @@ export default function Galerie() {
       </section>
 
       {/* Gallery Section */}
-      <section className="relative py-12 px-4 bg-gradient-to-b from-red-50/20 via-gray-50 to-red-50/30 overflow-hidden">
+      <section className="relative py-12 px-4 bg-gradient-to-b from-red-100/40 via-red-50/60 to-red-100/50 overflow-hidden">
         {/* Background decorative elements */}
-        <div className="absolute inset-0 opacity-3">
+        <div className="absolute inset-0 opacity-8">
           <div className="absolute top-20 right-10 w-96 h-96 bg-red-800 rounded-full blur-3xl"></div>
           <div className="absolute bottom-40 left-20 w-80 h-80 bg-red-900 rounded-full blur-3xl"></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-red-700 rounded-full blur-3xl"></div>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto">
           {bilder.length > 0 ? (
@@ -100,7 +101,7 @@ export default function Galerie() {
       </section>
 
       {/* Footer */}
-      <footer className="relative py-12 px-4 bg-gradient-to-b from-red-50/20 to-white border-t border-red-200 mt-20">
+      <footer className="relative py-12 px-4 bg-gradient-to-b from-red-100/30 via-white to-white border-t border-red-200 mt-20">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-600 mb-4">
             © 2026 Summerträff Vaduz. Alle Rechte vorbehalten.
