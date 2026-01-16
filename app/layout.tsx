@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import Header from './components/Header'
 
 export const metadata: Metadata = {
   title: 'Summerträff Vaduz',
@@ -13,7 +14,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="de">
-      <body>{children}</body>
+      <body>
+        <Header />
+        <div className="pt-16">
+          {children}
+        </div>
+      </body>
     </html>
   )
 }
