@@ -51,18 +51,25 @@ export default function Kontakt() {
             <div className="space-y-4 pt-4 border-t border-red-200">
               <div className="space-y-2">
                 <h4 className="text-lg font-semibold text-black">Adresse</h4>
-                <p className="text-gray-700">Adresse folgt</p>
+                <p className="text-gray-700">
+                  Verein Standortmarketing Vaduz<br />
+                  Städtle 14<br />
+                  Postfach 317<br />
+                  9490 Vaduz
+                </p>
               </div>
               
               <div className="space-y-2">
                 <h4 className="text-lg font-semibold text-black">Telefon</h4>
-                <p className="text-gray-700">Telefon folgt</p>
+                <a href="tel:+4237914080" className="text-gray-700 hover:text-red-800 transition-colors">
+                  +423 791 40 80
+                </a>
               </div>
               
               <div className="space-y-2">
                 <h4 className="text-lg font-semibold text-black">E-Mail</h4>
-                <a href="mailto:kontakt@summertraeff-vaduz.li" className="text-gray-700 hover:text-red-800 transition-colors">
-                  E-Mail folgt
+                <a href="mailto:info@erlebevaduz.li" className="text-gray-700 hover:text-red-800 transition-colors">
+                  info@erlebevaduz.li
                 </a>
               </div>
             </div>
